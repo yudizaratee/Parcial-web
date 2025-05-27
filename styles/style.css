@@ -1,0 +1,138 @@
+
+.menu {
+    margin-left: 10px;
+    margin-right:10px ;
+    list-style-type: none;
+    
+}
+
+#Inicio div{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 9%;
+    
+}
+#Inicio p{
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+#Inicio h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    text-align: center;
+}
+
+#Sobrelaserie div{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+#Sobrelaserie img{
+    margin-left: 40px;
+    width: 40%;
+
+}
+
+.h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#Personajes{
+    color: white;
+    padding-right: 5%;
+    font-size: 13px;
+}
+#Personajes h2{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+#Personajes h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 1cm;
+    margin-top: 4cm;
+}
+#Personajes img{
+    width: 7cm;
+    padding-right: 15px;
+}
+.contenedor{
+    display: flex;
+    padding-left: 10%;
+}
+.trespersonajes{
+    display: flex;
+}
+.Temporadas{
+    color: white;
+    display: flex;
+    padding-left: 30px;
+}
+.Temporadas img{
+    width: 300px;
+    padding-left: 30px;
+}
+.capitulos{
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    font-size: 13px;
+    padding-left: 60px;
+}
+.capitulos img{
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 500px;
+}
+.capitulos ul{
+    margin: 2px;
+}
+.Temporadas p{
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-right: 140px;
+}
+.h3 h3{
+    padding-left: 55px;
+    padding-top: 15px;
+    color: white;
+}
+
+#Curiosidades{
+    color: white;
+}
+#eventos{
+    display: inline-block;
+    
+}
+#eventos img{
+    width: 300px;
+    height: 190px;
+    padding: 1cm;
+    margin-left: 40px;
+}
+#Curiosidades p{
+    padding-left: 80px;
+    padding-right: 180px;
+    font-size: 20px;
+}
+footer span{
+    font-size: 25px;
+    padding-left: 25%;
+}
+footer img{
+    width: 20px;
+}

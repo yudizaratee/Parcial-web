@@ -1,0 +1,79 @@
+
+nav{
+    display: flex;
+    font-size: 20px;
+    background-color: black;
+    padding-bottom: 15x;
+    position: relative;
+    justify-content: center;
+    padding-top: 2px;
+}
+body{
+    margin: 0;
+    background-image: url('fondodelbody.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+main img{
+    width: 100%;
+}
+h1{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+nav{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+h2{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+h3{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+ul{
+    list-style-type: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+h4{
+    font-size: 30px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+footer{
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
