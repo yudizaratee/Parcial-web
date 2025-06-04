@@ -1,9 +1,36 @@
 
-.menu {
+.menu{
     margin-left: 10px;
     margin-right:10px ;
     list-style-type: none;
+    display: flex;
     
+}
+.menu li{
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+}
+.submenu{
+    background-color: black;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    visibility: hidden;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.submenu li a:hover{
+    background-color: brown;
+}
+.submenu li{
+    display: flex;
+}
+.menu > li:hover > .submenu{
+    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 
 #Inicio div{
