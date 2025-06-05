@@ -3,10 +3,8 @@ nav{
     display: flex;
     font-size: 20px;
     background-color: black;
-    padding-bottom: 15x;
     position: relative;
     justify-content: center;
-    padding-top: 2px;
 }
 body{
     margin: 0;
