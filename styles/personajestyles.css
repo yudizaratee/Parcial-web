@@ -1,0 +1,55 @@
+.sec_personajes h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+.personajes_pag{
+    margin: 5%;
+}
+.personajes_pag{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+.personajes_pag img{
+    width: 20%;
+    margin-right: 30px;
+}
+
+.personajes_pag h2 {
+  color: grey;
+  font-size: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.personajes_pag::before {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    grey
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.personajes_pag:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px grey;
+}
+
+.personajes_pag:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
