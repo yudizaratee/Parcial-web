@@ -13,11 +13,12 @@ body{
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
+    color: white;
 }
 main img{
     width: 100%;
 }
-h1{
+h1, h2, h3, h4, h5{
     font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -40,21 +41,7 @@ nav{
     font-style: normal;
 
 }
-h2{
-    font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: white;
-}
-h3{
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    color: white;
-    
-}
+
 ul{
     list-style-type: none;
     color: white;
@@ -63,14 +50,7 @@ ul{
     font-weight: weight;
     font-style: normal;
 }
-h4{
-    font-size: 30px;
-    color: white;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
+
 footer{
     margin-top: 15%;
     margin-bottom: 2%;

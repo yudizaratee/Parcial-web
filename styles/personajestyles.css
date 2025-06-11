@@ -56,3 +56,57 @@
   opacity: 1;
   transform: rotate(-45deg) translateY(100%);
 }
+.tres{
+  display: flex;
+  margin: 4%;
+}
+.titan{
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  margin: 2%;
+}
+.titan img{
+    width: 40%;
+    margin-right: 30px;
+    justify-content: center;
+}
+
+.titan h5 {
+  color: grey;
+  font-size: 2rem;
+  position: relative;
+  z-index: 2;
+  margin: 8%;
+}
+
+.titan::before {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    grey
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.titan:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px grey;
+}
+
+.titan:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+.titan p{
+  margin: 5%;
+   margin-top: 8%;
+}
