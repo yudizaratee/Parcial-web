@@ -1,0 +1,54 @@
+body {
+  display: grid;
+  justify-content: center;
+}
+p{
+    font-size: 20px;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: 10%;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 8%;
+}
+main img{
+    width: 600px;
+}
+main div{
+    text-align: center;
+    margin: 1%;
+
+}
+#lahistoria{
+    width: 60%;
+    display: grid;
+    margin: 20%;
+    gap: 1rem;
+}
+#lahistoria h2, h3{
+        text-align: center;
+        font-size: 40px;
+        margin: 4%;
+}
+#lahistoria img{
+    width: 80%;
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.elmundo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+   margin: 10%;
+   background-color: black;
+}
+.xsec{
+    margin: 5%;
+}
+.xsec img{
+    width: 100%;
+}

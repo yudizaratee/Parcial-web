@@ -1,39 +1,5 @@
-/*h2{
-    font-size: 40px;
-    text-align: center;
-    margin: 5%;
-}
 
-.caps{
-    display: flex;
-    justify-content: center;
-}
-.xcaps img{
-    width: 100%;
-}
-.xcaps h5{
-    font-size: 10px;
-}
-.xcaps{
-    width: 12%;
-    margin: 1%;
-}
-
-.videotrailer{
-    justify-content: center;
-    display: flex;
-    width: 70%;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 20px;
-}
-.videotrailer p{
-    margin: 3%;
-    margin-top: 5%;
-}*/
 details{
-    margin-left: 20%;
-    margin-right: 20%;
     width: 60%;
     display: grid;
     background: #000000;
@@ -70,3 +36,6 @@ summary {
       color: #555;
     }
 
+    .contenedor_caps{
+       margin: 2%;
+      }
