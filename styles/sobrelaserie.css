@@ -21,18 +21,23 @@ main div{
     margin: 1%;
 
 }
-#lahistoria{
-    width: 60%;
+.lahistoria{
+    width: 90%;
     display: grid;
-    margin: 20%;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 10%;
     gap: 1rem;
 }
-#lahistoria h2, h3{
+.porsecs{
+    margin: 5%;
+    height: 70%;
+}
+.lahistoria h2, h3{
         text-align: center;
         font-size: 40px;
         margin: 4%;
 }
-#lahistoria img{
+.lahistoria img{
     width: 80%;
     margin: 10%;
     margin-top: 5%;
